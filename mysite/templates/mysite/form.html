@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{% url 'result' %}" style="padding: 5%">
+        <div class="" style="padding: 2%">
+            <input class="w3-input w3-border" type="text" id="input" name="input">
+            <input id="btn" type="submit" value="Enviar" class="w3-btn w3-teal" style="margin-top: 1%">
+        </div>
+    </form>
+<script>
+
+// Função que mostra o valor do input num alert
+//function mostrarValor() {
+   // alert(document.getElementById("input").value);
+ //  let txt = document.getElementById("input").value;
+  // document.getElementById("p1").innerHTML = txt;
+//}
+
+// Evento que é executado toda vez que uma tecla for pressionada no input
+// document.getElementById("input").onkeypress = function(e) {
+//     // 13 é a tecla <ENTER>. Se ela for pressionada, mostrar o valor
+//     if (e.keyCode == 13) {
+//         mostrarValor();
+//         e.preventDefault();
+//     }
+// }
+
+// // Evento que é executado ao clicar no botão de enviar
+// document.getElementById("btn").onclick = function(e) {
+//     mostrarValor();
+//     e.preventDefault();
+// }
+
+</script>
+</body>
+</html>
